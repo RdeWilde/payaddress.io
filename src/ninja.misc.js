@@ -157,7 +157,7 @@ ninja.qrCode = {
 		return canvas;
 	},
 
-	// generate a QRCode and return it's representation as an Html table 
+	// generate a QRCode and return it's representation as an Html table
 	createTableHtml: function (text) {
 		var typeNumber = ninja.qrCode.getTypeNumber(text);
 		var qr = new QRCode(typeNumber, QRCode.ErrorCorrectLevel.H);
@@ -180,7 +180,7 @@ ninja.qrCode = {
 	},
 
 	// show QRCodes with canvas OR table (IE8)
-	// parameter: keyValuePair 
+	// parameter: keyValuePair
 	// example: { "id1": "string1", "id2": "string2"}
 	//		"id1" is the id of a div element where you want a QRCode inserted.
 	//		"string1" is the string you want encoded into the QRCode.
@@ -215,7 +215,7 @@ ninja.tab = {
                 document.getElementById(wType).className = "tab";
                 ninja.wallets[wType].close();
             }
-            
+
             // don't open tab if entropy still being collected
             // exceptions: brainwallet detailwallet
             if (ninja.seeder.isStillSeeding == false || walletType == "brainwallet" || walletType == "detailwallet") {

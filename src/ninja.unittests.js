@@ -483,10 +483,10 @@
 			//   1 share in a safety deposit box ("Box")
 			//   1 share at Home
 			//   1 share at Work
-			// Threshold of 2 can be redeemed in these permutations 
-			//   Home + Box 
-			//   Work + Box 
-			//   Home + Work 
+			// Threshold of 2 can be redeemed in these permutations
+			//   Home + Box
+			//   Work + Box
+			//   Home + Work
 			testSplitAndCombinePrivateKey2of3: function () {
 				// lowercase hex key
 				var key = "0004d30da67214fa65a41a6493576944c7ea86713b14db437446c7a8df8e13da"; //5HpJ4bpHFEMWYwCidjtZHwM2rsMh4PRfmZKV8Y21i7msiUkQKUW
@@ -530,7 +530,7 @@
 			//   3 shares with good friend Angie
 			//   3 shares with good friend Fred
 			//   3 shares with Self at home or office
-			// Threshold of 7 can be redeemed in these permutations 
+			// Threshold of 7 can be redeemed in these permutations
 			//   Self + Box (no trust to spend your coins but your friends are backing up your shares)
 			//   Angie + Box (Angie will send btc to executor of your will)
 			//   Fred + Box (if Angie hasn't already then Fred will send btc to executor of your will)
@@ -554,7 +554,7 @@
 			testCombinePrivateKeyFromXofYShares: function () {
 				var key = "5K9nHKqbwc1xXpa6wV5p3AaCnubvxQDBukKaFkq7ThAkxgMTMEh";
 				// these are 4 of 6 shares
-				var shares = ["3XxjMASmrkk6eXMM9kAJA7qiqViNVBfiwA1GQDLvg4PVScL", "3Y2DkcPuNX8VKZwpnDdxw55wJtcnCvv2nALqe8nBLViHvck", 
+				var shares = ["3XxjMASmrkk6eXMM9kAJA7qiqViNVBfiwA1GQDLvg4PVScL", "3Y2DkcPuNX8VKZwpnDdxw55wJtcnCvv2nALqe8nBLViHvck",
 					"3Y6qv7kyGwgRBKVHVbUNtzmLYAZWQtTPztPwR8wc7uf4MXR", "3YD4TowZn6jw5ss8U89vrcPHonFW4vSs9VKq8MupV5kevG4"]
 				secrets.setRNG();
 				secrets.init(7);
