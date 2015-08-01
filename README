@@ -1,25 +1,26 @@
-bitaddress.org
-JavaScript Client-Side Bitcoin Wallet Generator
+payaddress.io
+JavaScript Client-Side Paycoin Wallet Generator
 
-Now Bitcoin addresses and their corresponding private key can be conveniently 
+Now Paycoin addresses and their corresponding private key can be conveniently
 generated in a web browser.
 
-The bitaddress.org project provides an all-in-one HTML document with embedded
-JavaScript/Css/Images. The JavaScript is readable not minified and contains no
-XMLHttpRequest's (no AJAX). The benefit of this technique is you can load the 
-JavaScript locally and trust that the JavaScript did not change after being 
-loaded. 
+The payaddress.io project provides an all-in-one HTML document with embedded
+JavaScript/CSS/Images. The JavaScript is readable not minified and contains no
+XMLHttpRequest's (no AJAX). The benefit of this technique is you can load the
+JavaScript locally and trust that the JavaScript did not change after being
+loaded.
 
-Here is a link to the BitcoinTalk.org forum topic discussing this project:
+Here is a link to the BitcoinTalk.org forum topic discussing the forked
+bitaddress.org project:
 https://bitcointalk.org/index.php?topic=43496.0
 
 
-Please send DONATIONS for this project to Bitcoin Address: 
-1NiNja1bUmhSoTXozBRBEtR8LeF9TGbZBN
+Please send DONATIONS for this project to Paycoin Address:
+PAddioejdSMoAE5X9mx2LBruxeWPCu5Pjx
 
 
-END USER NOTES: 
- 1) To print QRCode in IE8 you must enable the "Print Background Colors and 
+END USER NOTES:
+ 1) To print QRCode in IE8 you must enable the "Print Background Colors and
     Images" checkbox on the "Page Setup" screen.
  2) For Bulk Wallet I recommended using Google Chrome, it's the fastest.
  3) Requires IE8+, Firefox, Chrome or sufficient JavaScript support.
@@ -54,8 +55,9 @@ window.BigInteger		BSD License
 window.QRCode			MIT License
 window.Bitcoin			MIT License
 
-The bitaddress.org software is available under The MIT License (MIT)
-Copyright (c) 2011-2013 bitaddress.org
+The payaddress.io software is available under The MIT License (MIT)
+Copyright (c) 2011-2015 bitaddress.org
+Copyright (c) 2015 payaddress.io
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
