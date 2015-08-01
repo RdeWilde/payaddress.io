@@ -7,7 +7,7 @@ module.exports = function (grunt) {
 		combine: {
 			single: {
 				input: "./src/bitaddress-ui.html",
-				output: "./bitaddress.org.html",
+				output: "./payaddress.io.html",
 				tokens: [
 					{ token: "//array.map.js", file: "./src/array.map.js" },
 					{ token: "//biginteger.js", file: "./src/biginteger.js" },
@@ -46,14 +46,14 @@ module.exports = function (grunt) {
 				]
 			}
 		},
-		
+
 		lineending: {               // Task
 			dist: {                   // Target
 				options: {              // Target options
 					eol: 'lf'
 				},
 				files: {                // Files to process
-					'./bitaddress.org.html': ['./bitaddress.org.html']
+					'./payaddress.io.html': ['./payaddress.io.html']
 				}
 			}
 		}
